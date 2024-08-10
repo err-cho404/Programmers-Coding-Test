@@ -13,7 +13,7 @@
 
 
 <!---
-err-cho404/err-cho404 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+err-cho404/Programmers-Coding-Test is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 
@@ -50,8 +50,6 @@ You can click the Preview link to take a look at your changes.
 <!--- ### 프로필 --->
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=err-cho404)](https://solved.ac/err-cho404) 
 
-<!--- ### 2D잔디 --->
-<!--- ![mazandi profile](http://mazandi.herokuapp.com/api?handle=err-cho404&theme=cold) --->
 
 <!--- ### 3D잔디 --->
 ![](./profile-3d-contrib/profile-gitblock.svg)
