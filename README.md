@@ -1,7 +1,4 @@
-# Programmers-Coding-Test
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
-
-## err-cho404 <a id="Error">
+## Programmers-Coding-Test <a id="Error">
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=Error404&fontColor=ffffff&fontAlignY=40&color=0:d0e5e3,100:005e5b&section=header&desc=How%20to%20Find%20Me?&descSize=15)
 <!--- ### Mini profile --->
 [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=err-cho404)](https://solved.ac/err-cho404)
