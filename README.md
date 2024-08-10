@@ -1,5 +1,5 @@
 ## Programmers-Coding-Test <a id="Error">
-![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=Error404&fontColor=ffffff&fontAlignY=40&color=0:d0e5e3,100:005e5b&section=header&desc=How%20to%20Find%20Me?&descSize=15)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=CodingTest&fontColor=ffffff&fontAlignY=40&color=0:feecc0,100:febd22&section=header&desc=How%20to%20Find%20Me?&descSize=15)
 <!--- ### Mini profile --->
 [![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=err-cho404)](https://solved.ac/err-cho404)
 
@@ -56,5 +56,5 @@ You can click the Preview link to take a look at your changes.
 <!--- ### 3D잔디 --->
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
-![waving](https://capsule-render.vercel.app/api?type=waving&height=180&text=Don't%20forget%20me&fontSize=20&fontColor=ffffff&fontAlign=90&fontAlignY=90&color=0:d0e5e3,100:005e5b&section=footer)
+![waving](https://capsule-render.vercel.app/api?type=waving&height=180&text=Don't%20forget%20me&fontSize=20&fontColor=ffffff&fontAlign=90&fontAlignY=90&color=0:feecc0,100:febd22&section=footer)
 
