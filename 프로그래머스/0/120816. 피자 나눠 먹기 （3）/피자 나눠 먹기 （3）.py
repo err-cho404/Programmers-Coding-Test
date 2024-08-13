@@ -1,14 +1,9 @@
+import numpy as np
 def solution(slice, n):
     answer = 0
     if 2<=slice<=10 and 1<=n<=100:
-        if slice==n:
-            answer=1
+        if slice<n:
+            answer=np.ceil(n/slice)
         else:
-            i=0
-            while 1:
-                i+=1
-                if (slice*(0+i))%n<slice: 
-                    return i
-                    
-                
+            answer=1
     return answer
