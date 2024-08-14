@@ -1,10 +1,10 @@
 # [level 0] 문자열 뒤집기 - 120822 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822) 
 
 ### 성능 요약
 
-메모리: 33.4 MB, 시간: 0.06 ms
+메모리: 33.4 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 15일 04:06:49
+2024년 08월 15일 04:07:48
 
 ### 문제 설명
 
