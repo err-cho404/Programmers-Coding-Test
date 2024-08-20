@@ -1,7 +1,12 @@
 function solution(emergency) {
-    let sorted = emergency.slice().sort((a,b)=>b-a);
-    console.log(sorted);
-    return emergency.map(v=>sorted.indexOf(v)+1);//sorted의 인덱스를 emergency에 map으로 적용
+    var answer = [];
+    var dict={};
+    var sort_list=emergency.slice().sort((a,b)=>a-b);
+    for(i=emergency.length;i>0;i--){
+        dict[sort_list[emergency.length-i]]=i;
+    }
+    for(j=0;j<emergency.length;j++){
+        answer.push(dict[`${emergency[j]}`]);
+    } 
+    return answer;
 }
-
-
