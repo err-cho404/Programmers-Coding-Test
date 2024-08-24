@@ -3,12 +3,10 @@ function solution(numbers, direction) {
     var result = [...numbers];
     if(3<=numbers.length<=20){
         if(direction=="right"){
-            result.unshift(result[numbers.length-1]);
-            result.pop();
+            result.unshift(result.pop());
             answer=result;
         }else if(direction=="left"){
-            result.push(result[0]);
-            result.shift();
+            result.push(result.shift());
             answer=result;
         }
     }
