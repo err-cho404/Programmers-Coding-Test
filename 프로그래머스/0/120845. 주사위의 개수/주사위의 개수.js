@@ -1,13 +1,8 @@
 function solution(box, n) {
     var answer = 0;
-    var minbox=[];
-    if(box.length==3 && 1<=n && n<=50){
-        for(i=0;i<box.length;i++){
-            if(1<=box[i] && box[i]<=100 && n<=box[i]){
-                minbox.push(~~(box[i]/n));
-            }
-        }
-        answer=~~(minbox[0]*minbox[1]*minbox[2]);
+    let [width,length,height]=box;
+    if(box.length==3 && 1<=n && n<=50 && 1<=width &&width<=100&& 1<=length &&length<=100&& 1<=height &&height<=100){
+        answer=(~~(width/n)*~~(length/n)*~~(height/n));
     }
     return answer;
 }
