@@ -6,17 +6,10 @@ function solution(numbers, k) {
         for(j=0;j<x;j++){
             numbers.push(numbers[j]);
         }
-
-        if(k==1){
-            answer=numbers[0];
-        }else{
-            for(i=1;i<k;i++){
-                idx=idx+2;
-                
-                answer=numbers[idx];
-            }
+        for(i=1;i<=k;i++){
+            answer=numbers[idx];
+            idx=idx+2;
         }
-
     }
     return answer;
 }

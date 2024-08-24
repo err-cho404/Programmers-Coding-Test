@@ -1,10 +1,10 @@
 # [level 0] 공 던지기 - 120843 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120843) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120843?language=javascript) 
 
 ### 성능 요약
 
-메모리: 37.8 MB, 시간: 5.26 ms
+메모리: 39.4 MB, 시간: 5.29 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 24일 22:52:00
+2024년 08월 24일 22:54:22
 
 ### 문제 설명
 
