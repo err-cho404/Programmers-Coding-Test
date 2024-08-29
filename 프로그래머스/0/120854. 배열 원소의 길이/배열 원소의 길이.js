@@ -1,11 +1,9 @@
 function solution(strlist) {
     var answer = [];
     var result=[];
-    for(i=0;i<strlist.length;i++){
-        result[i]=strlist[i].split('').length;
-    }
-    if(1 <= Math.min(...result) &&  Math.max(...result)<=100){
-        return result;
+    strlist=strlist.map((x)=>x.length);
+    if(1 <= Math.min(...strlist) &&  Math.max(...strlist)<=100){
+        return strlist;
     }
     return answer;
 }
