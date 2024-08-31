@@ -7,26 +7,18 @@ function solution(keyinput, board) {
             if(keyinput[i]=="up"){
                 if(-Math.floor(board[1]/2)<=length && length<Math.floor(board[1]/2)){
                     length=length+1;
-                }else{
-                    continue;
                 }
             }else if(keyinput[i]=="down"){
                 if(-Math.floor(board[1]/2)<length && length<=Math.floor(board[1]/2)){
                     length=length-1;
-                }else{
-                    continue;
                 }
             }else if(keyinput[i]=="left"){
                 if(-Math.floor(board[0]/2)<width && width<=Math.floor(board[0]/2)){
                     width=width-1;
-                }else{
-                    continue;
                 }
             }else if(keyinput[i]=="right"){
                 if(-Math.floor(board[0]/2)<=width && width<Math.floor(board[0]/2)){
                     width=width+1;
-                }else{
-                    continue;
                 }
             }
         }
