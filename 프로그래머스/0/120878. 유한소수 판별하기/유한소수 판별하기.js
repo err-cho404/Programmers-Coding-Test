@@ -4,8 +4,6 @@ function solution(a, b) {
         if(a%i==0&&b%i==0){
             var minA=a/i;
             var minB=b/i;
-            console.log(minA);
-            console.log(minB);
             break;
         }
     };
