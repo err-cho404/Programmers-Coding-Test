@@ -1,7 +1,3 @@
 function solution(cipher, code) {
-    var answer = '';
-    for(i=code-1;i<cipher.length;i+=code){
-        answer+=cipher[i];
-    }
-    return answer;
+    return cipher.split('').filter((x,y)=>(y+1)%code==0).join('');
 }
