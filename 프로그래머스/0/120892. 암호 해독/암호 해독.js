@@ -1,9 +1,7 @@
 function solution(cipher, code) {
     var answer = '';
-    var arr=cipher.split('');
-    var newarr=[];
-    for(i=code-1;i<arr.length;i+=code){
-        newarr.push(arr[i]);
+    for(i=code-1;i<cipher.length;i+=code){
+        answer+=cipher[i];
     }
-    return answer=newarr.join('');
+    return answer;
 }
