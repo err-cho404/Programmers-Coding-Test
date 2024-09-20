@@ -1,3 +1,3 @@
 function solution(my_string) {
-    return my_string.split('').map(x=>{if(x<'a') {return x.toLowerCase()}else{return x.toUpperCase()}}).join('');
+    return my_string.split('').map(x=>(x<'a')? x.toLowerCase(): x.toUpperCase()).join('');
 }
