@@ -1,5 +1,4 @@
 function solution(my_string) {
-    var result=0;
     my_string=my_string.split(' ');
     for(i=1;i<my_string.length;i+=2){
         if(my_string[i]==='+'){
