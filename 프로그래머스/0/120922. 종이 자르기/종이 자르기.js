@@ -1,3 +1,3 @@
 function solution(M, N) {
-    return ((N-1)*M)+(M-1);
+    return (M*N)-1;
 }
