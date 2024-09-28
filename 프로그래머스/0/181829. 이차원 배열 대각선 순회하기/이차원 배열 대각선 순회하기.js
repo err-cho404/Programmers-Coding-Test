@@ -1,3 +1,11 @@
 function solution(board, k) {
-    return board.flatMap((x,i)=>x.filter((y,j) => i+j<=k)).reduce((a,b)=>a+b,0);
+    var answer = 0;
+    for(i=0;i<board.length;i++){
+        for(j=0;j<board[0].length;j++){
+            if(i+j<=k){
+                answer+=board[i][j]; 
+            }
+        }
+    }
+    return answer;
 }
