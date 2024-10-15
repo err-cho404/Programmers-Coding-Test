@@ -8,7 +8,7 @@ function solution(arr) {
         }else if(answer.length>0 && answer[answer.length-1]==arr[i]){
             answer.pop();
             i++;
-        }else if(answer.length>0 && answer[answer.length-1]!=arr[i]){
+        }else{
             answer.push(arr[i]);
             i++;
         }
