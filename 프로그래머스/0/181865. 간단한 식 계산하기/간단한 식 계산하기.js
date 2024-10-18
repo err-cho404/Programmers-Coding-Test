@@ -1,4 +1,4 @@
 function solution(binomial) {
     var con=binomial.split(' ');
-    return con[1]=='+'? Number(con[0])+Number(con[2]):con[1]=='-'?Number(con[0])-Number(con[2]):Number(con[0])*Number(con[2]);
+    return con[1]=='+'? +con[0]+ +con[2]:con[1]=='-'?+con[0]-+con[2]:+con[0]*+con[2];
 }
