@@ -1,7 +1,9 @@
 function solution(myString, pat) {
-    var arr=[];
+    var answer=0;
     for(i=0;i<=myString.length-pat.length;i++){
-        arr.push(myString.slice(i,pat.length+i));
+        if(myString.slice(i,pat.length+i)==pat){
+            answer+=1;
+        }
     }
-    return arr.filter(x=>x==pat).length;
+    return answer;
 }
