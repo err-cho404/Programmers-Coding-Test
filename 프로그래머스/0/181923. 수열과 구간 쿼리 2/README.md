@@ -1,10 +1,10 @@
 # [level 0] 수열과 구간 쿼리 2 - 181923 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181923#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181923?language=javascript) 
 
 ### 성능 요약
 
-메모리: 37 MB, 시간: 24.23 ms
+메모리: 36.8 MB, 시간: 25.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 24일 22:41:05
+2024년 11월 24일 22:42:20
 
 ### 문제 설명
 
