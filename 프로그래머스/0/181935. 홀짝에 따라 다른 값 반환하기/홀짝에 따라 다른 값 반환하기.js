@@ -1,3 +1,6 @@
 function solution(n) {
-    return n%2==0?Array(n/2).fill(0).map((_,i)=>Math.pow(n-(i*2),2)).reduce((a,b)=>a+b):Array(Math.ceil(n/2)).fill(0).map((_,i)=>n-(i*2)).reduce((a,b)=>a+b);
+    if(n%2===1)
+      return (n+1)/2*((n+1)/2) ;
+    else
+      return n*(n+1)*(n+2)/6;
 }
