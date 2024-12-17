@@ -15,4 +15,3 @@ jobs:
          token: ${{ secrets.GH_PAT }}
          repository: err-cho404/Programmers_Badge_Generator
          event-type: trigger-workflow
-
