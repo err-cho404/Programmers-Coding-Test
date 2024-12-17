@@ -8,10 +8,10 @@
 <br>
 <br>
 
-<div align = "center">
-  <!---![Programmers Badge](https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg)--->
+<!---<div align = "center">
+  ![Programmers Badge](https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg)
   <img src ="https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg"/>
-</div>
+</div>--->
 
 <!--- ### Main Languages 
 <div align=center>
