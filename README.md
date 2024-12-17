@@ -8,6 +8,10 @@
 <br>
 <br>
 
+<div align = "center">
+  <!---![Programmers Badge](https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg)--->
+  <img src ="https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg"/>
+</div>
 
 <!--- ### Main Languages 
 <div align=center>
@@ -33,7 +37,7 @@
 <br>
 <br>
 
-![Programmers Badge](https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg)
+
 
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=180&text=Thank%20You&fontSize=20&fontColor=ffffff&fontAlign=93&fontAlignY=90&color=0:acddd9,100:febd22&section=footer)
 
