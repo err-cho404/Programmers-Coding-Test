@@ -1,6 +1,9 @@
 ## Programmers-Coding-Test <a id="Error">
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=300&text=CodingTest&fontColor=ffffff&fontAlignY=40&color=0:acddd9,100:febd22&section=header&desc=Hello!&descSize=15)
 
+<br>
+<br>
+
 <p align=center>It's err-cho404's Coding Test Record Page</p>
 <br>
 <br>
@@ -26,6 +29,10 @@
 
 <!--- ### 3D잔디 --->
 ![](./profile-3d-contrib/profile-gitblock.svg )
+<br>
+<br>
+
+![Programmers Badge](https://raw.githubusercontent.com/err-cho404/Programmers_Badge_Generator/main/result/result.svg)
 
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=180&text=Thank%20You&fontSize=20&fontColor=ffffff&fontAlign=93&fontAlignY=90&color=0:acddd9,100:febd22&section=footer)
 
