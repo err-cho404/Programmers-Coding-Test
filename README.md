@@ -9,8 +9,9 @@
 <br>
 
 
-<!--- ### Main Languages --->
+<!--- ### Main Languages 
 <div align=center>
+  
   <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
@@ -19,11 +20,11 @@
   <br>
   <a href="https://github.com/anuraghazra/github-readme-stats">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=err-cho404&layout=donut&show_icons=true&theme=vue&hide_border=true&bg_color=fff&icon_color=3b9a91&text_color=3b9a91&title_color=3b9a91&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
-  </a>  
+  </a> 
   <br>
   <br>
-
 </div>
+--->
 <br>
 <br>
 
