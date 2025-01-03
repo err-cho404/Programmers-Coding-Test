@@ -11,8 +11,4 @@ def solution(mats, park):
         if all(n=="-1" for n in sum(marr,[])):
             arr.append(len(marr))
  
-    for i in set(arr) :
-        if i in mats :
-            answer.append(i)
-            
-    return max(answer) if len(answer)>0 else -1 
+    return max(arr) if len(arr)>0 else -1 
