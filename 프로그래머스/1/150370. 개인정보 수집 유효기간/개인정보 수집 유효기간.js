@@ -1,9 +1,8 @@
 function solution(today, terms, privacies) {
-    var answer=[];
-    today=today.split(".");
-    today[0]=Number(today[0])*28*12;
-    today[1]=Number(today[1])*28;
-    today[2]=Number(today[2]);
+    today=today.split(".").map(x=>Number(x));
+    today[0]=today[0]*28*12;
+    today[1]=today[1]*28;
+    today[2]=today[2];
     today=today.reduce((a,b)=>a+b);
     terms=terms.map(x=>x.split(" "));
     privacies=privacies.map(x=>x.split(" ")).map(y=>y[0].split(".").concat(y[1]));
@@ -13,6 +12,5 @@ function solution(today, terms, privacies) {
         x[2]=Number(x[2]);
         x.pop();
     }}));
-    privacies.map((x,i)=>(x.reduce((a,b)=>a+b))<=today?answer.push(i+1):0);
-    return answer;
+    return privacies.map((x,i)=>(x.reduce((a,b)=>a+b))<=today?i+1:0).filter(x=>x!=0);
 }
