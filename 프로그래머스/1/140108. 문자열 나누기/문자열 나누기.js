@@ -1,25 +1,22 @@
 function solution(s) {
     var answer = 0;
-    const sset = [...new Set([...s])];
-    var slist = [...s];
-    var scountList = Array(sset.length).fill(0);
-    var i=0;
-    while(i<slist.length){
-        scountList[sset.indexOf(slist[i])]++;
-        i++;
-        var startstrcount = scountList[sset.indexOf(slist[0])];
-        var otherstrcount = scountList.filter((_,i)=>i!=sset.indexOf(slist[0])).reduce((a,b)=>a+b,0);
-        if([...new Set(slist)].length==1){
-                answer++;
-                break;
-        }else if(startstrcount == otherstrcount){
+    var i = 0;
+    var start = 0;
+    var count = 0;
+    while(i<s.length){
+        if(count==0){
             answer++;
-            slist=slist.slice(startstrcount+otherstrcount);
-            scountList = Array(sset.length).fill(0);
-            i=0;
-        }else if(startstrcount>otherstrcount && startstrcount+otherstrcount==slist.length){
-            answer++;
+            start=s[i];
+            count=1;
+        }else{
+            if(start!=s[i]){
+                count--;
+            }else{
+                count++;
+            }
+            // count가 0이 되면 x값과 x가 아닌 값이 동일한 것이므로 count==0이라면 answer의 값이 1씩 추가되게끔 만듦
         }
+        i++;
     }
     return answer;
 }
