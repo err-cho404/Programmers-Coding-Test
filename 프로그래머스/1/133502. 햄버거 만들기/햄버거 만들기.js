@@ -5,9 +5,7 @@ function solution(ingredient) {
         arr.push(ingredient[i]);
         if(arr[arr.length-4]==1&&arr[arr.length-3]==2&&arr[arr.length-2]==3&&arr[arr.length-1]==1){
             answer++;
-            for(j=0;j<4;j++){
-                arr.pop();
-            }
+            arr.splice(-4);
         }
     }
     return answer;
