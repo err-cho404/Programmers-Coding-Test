@@ -12,7 +12,7 @@ function solution(X, Y) {
             Y.pop();
         }
     }
-    if(answer[0]=='0') answer = "0";
-    if(answer.length==0) answer = "-1";
+    if(answer[0]=='0') return "0";
+    if(answer.length==0) return "-1";
     return answer;
 }
