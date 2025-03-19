@@ -1,5 +1,5 @@
 function solution(sizes) {
-    const w = sizes.map(x=>x.sort((a,b)=>a-b)[0]).sort((a,b)=>b-a)[0];
-    const h = sizes.map(x=>x.sort((a,b)=>a-b)[1]).sort((a,b)=>b-a)[0];
+    const w = Math.max(...sizes.map(x=>x.sort((a,b)=>a-b)[0]));
+    const h = Math.max(...sizes.map(x=>x.sort((a,b)=>a-b)[1]));
     return h * w;
 }
