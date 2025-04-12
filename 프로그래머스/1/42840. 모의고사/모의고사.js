@@ -8,15 +8,9 @@ function solution(answers) {
     
     var i = 0;
     while(i<answers.length){
-        if(answers[i]==one[i]){
-            count[0]++;
-        }
-        if(answers[i]==two[i]){
-            count[1]++;
-        }
-        if(answers[i]==three[i]){
-            count[2]++;
-        }
+        if(answers[i]==one[i]) count[0]++;
+        if(answers[i]==two[i]) count[1]++;
+        if(answers[i]==three[i]) count[2]++;
         i++;
     }
 
