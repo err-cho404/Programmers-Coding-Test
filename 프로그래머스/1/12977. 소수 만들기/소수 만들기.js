@@ -5,7 +5,7 @@ function solution(nums) {
             for(k=j+1;k<nums.length;k++){
                 var count = 0;
                 var numCheck = [nums[i],nums[j],nums[k]].reduce((a,b)=>a+b);
-                for(l=1;l<=Math.ceil(numCheck/2);l++){
+                for(l=1;l<=numCheck/2;l++){
                     if(numCheck%l==0){
                         count++;
                     }
