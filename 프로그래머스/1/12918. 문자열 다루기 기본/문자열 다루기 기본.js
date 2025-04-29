@@ -1,4 +1,4 @@
 function solution(s) {
-    var regex = /^[0-9]{4,6}$/
-    return regex.test(s) && s.length!=5 ? true : false;
+    var regex = /^\d{6}$|^\d{4}$/;
+    return regex.test(s);
 }
